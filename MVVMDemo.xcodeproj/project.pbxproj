@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,22 @@
 		D26E63A92488EF8B006A0093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26E63A72488EF8B006A0093 /* LaunchScreen.storyboard */; };
 		D26E63B42488EF8C006A0093 /* MVVMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63B32488EF8C006A0093 /* MVVMDemoTests.swift */; };
 		D26E63BF2488EF8C006A0093 /* MVVMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63BE2488EF8C006A0093 /* MVVMDemoUITests.swift */; };
+		D26E63D2248903F8006A0093 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63D0248903F8006A0093 /* PhotoViewController.swift */; };
+		D26E63D3248903F8006A0093 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26E63D1248903F8006A0093 /* PhotoViewController.xib */; };
+		D26E63D624890632006A0093 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63D424890632006A0093 /* PhotoCollectionViewCell.swift */; };
+		D26E63D724890632006A0093 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26E63D524890632006A0093 /* PhotoCollectionViewCell.xib */; };
+		D26E63D924890CB0006A0093 /* PhotoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63D824890CB0006A0093 /* PhotoCellViewModel.swift */; };
+		D26E63DB2489E6B1006A0093 /* PhotoControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63DA2489E6B1006A0093 /* PhotoControllerViewModel.swift */; };
+		D26E63DD2489E720006A0093 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63DC2489E720006A0093 /* PhotoModel.swift */; };
+		D26E63DF2489F1CC006A0093 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63DE2489F1CC006A0093 /* APIService.swift */; };
+		D26E63E424908781006A0093 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63E224908781006A0093 /* PhotoDetailViewController.swift */; };
+		D26E63E524908781006A0093 /* PhotoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26E63E324908781006A0093 /* PhotoDetailViewController.xib */; };
+		D26E63E92490D3C3006A0093 /* DataPassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63E82490D3C3006A0093 /* DataPassing.swift */; };
+		D26E63EC2491DA07006A0093 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26E63EA2491DA07006A0093 /* ProfileViewController.swift */; };
+		D26E63ED2491DA07006A0093 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26E63EB2491DA07006A0093 /* ProfileViewController.xib */; };
+		D2DB67B324920BDC00EC0AE6 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DB67B124920BDC00EC0AE6 /* ProfileTableViewCell.swift */; };
+		D2DB67B424920BDC00EC0AE6 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DB67B224920BDC00EC0AE6 /* ProfileTableViewCell.xib */; };
+		DEF724CF8A94FD93D3C9859F /* Pods_MVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFEF7EEB07058676F43756B /* Pods_MVVMDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49DF5CA0E1330C6A4683FFDA /* Pods-MVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemo.debug.xcconfig"; path = "Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		95759960FF9F5CC8E9F96884 /* Pods-MVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMDemo.release.xcconfig"; path = "Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AFFEF7EEB07058676F43756B /* Pods_MVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26E63992488EF86006A0093 /* MVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26E639C2488EF86006A0093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D26E639E2488EF86006A0093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,21 @@
 		D26E63BA2488EF8C006A0093 /* MVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26E63BE2488EF8C006A0093 /* MVVMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDemoUITests.swift; sourceTree = "<group>"; };
 		D26E63C02488EF8C006A0093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26E63D0248903F8006A0093 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		D26E63D1248903F8006A0093 /* PhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		D26E63D424890632006A0093 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		D26E63D524890632006A0093 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		D26E63D824890CB0006A0093 /* PhotoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCellViewModel.swift; sourceTree = "<group>"; };
+		D26E63DA2489E6B1006A0093 /* PhotoControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoControllerViewModel.swift; sourceTree = "<group>"; };
+		D26E63DC2489E720006A0093 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		D26E63DE2489F1CC006A0093 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		D26E63E224908781006A0093 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		D26E63E324908781006A0093 /* PhotoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailViewController.xib; sourceTree = "<group>"; };
+		D26E63E82490D3C3006A0093 /* DataPassing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPassing.swift; sourceTree = "<group>"; };
+		D26E63EA2491DA07006A0093 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D26E63EB2491DA07006A0093 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		D2DB67B124920BDC00EC0AE6 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		D2DB67B224920BDC00EC0AE6 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF724CF8A94FD93D3C9859F /* Pods_MVVMDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D7B3FC7A0CCC715B62D6D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFFEF7EEB07058676F43756B /* Pods_MVVMDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB54789AE505C59B8F0BB522 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49DF5CA0E1330C6A4683FFDA /* Pods-MVVMDemo.debug.xcconfig */,
+				95759960FF9F5CC8E9F96884 /* Pods-MVVMDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D26E63902488EF86006A0093 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				D26E63B22488EF8C006A0093 /* MVVMDemoTests */,
 				D26E63BD2488EF8C006A0093 /* MVVMDemoUITests */,
 				D26E639A2488EF86006A0093 /* Products */,
+				CB54789AE505C59B8F0BB522 /* Pods */,
+				8D7B3FC7A0CCC715B62D6D01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +160,21 @@
 				D26E63A52488EF8B006A0093 /* Assets.xcassets */,
 				D26E63A72488EF8B006A0093 /* LaunchScreen.storyboard */,
 				D26E63AA2488EF8B006A0093 /* Info.plist */,
+				D26E63D0248903F8006A0093 /* PhotoViewController.swift */,
+				D26E63D1248903F8006A0093 /* PhotoViewController.xib */,
+				D26E63D424890632006A0093 /* PhotoCollectionViewCell.swift */,
+				D26E63D524890632006A0093 /* PhotoCollectionViewCell.xib */,
+				D26E63D824890CB0006A0093 /* PhotoCellViewModel.swift */,
+				D26E63DA2489E6B1006A0093 /* PhotoControllerViewModel.swift */,
+				D26E63DC2489E720006A0093 /* PhotoModel.swift */,
+				D26E63DE2489F1CC006A0093 /* APIService.swift */,
+				D26E63E224908781006A0093 /* PhotoDetailViewController.swift */,
+				D26E63E324908781006A0093 /* PhotoDetailViewController.xib */,
+				D26E63E82490D3C3006A0093 /* DataPassing.swift */,
+				D26E63EA2491DA07006A0093 /* ProfileViewController.swift */,
+				D26E63EB2491DA07006A0093 /* ProfileViewController.xib */,
+				D2DB67B124920BDC00EC0AE6 /* ProfileTableViewCell.swift */,
+				D2DB67B224920BDC00EC0AE6 /* ProfileTableViewCell.xib */,
 			);
 			path = MVVMDemo;
 			sourceTree = "<group>";
@@ -135,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D26E63C32488EF8C006A0093 /* Build configuration list for PBXNativeTarget "MVVMDemo" */;
 			buildPhases = (
+				7319249A138FF7B89D50CF44 /* [CP] Check Pods Manifest.lock */,
 				D26E63952488EF86006A0093 /* Sources */,
 				D26E63962488EF86006A0093 /* Frameworks */,
 				D26E63972488EF86006A0093 /* Resources */,
+				E65F582FAF1BDD484934496C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +303,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26E63ED2491DA07006A0093 /* ProfileViewController.xib in Resources */,
+				D26E63E524908781006A0093 /* PhotoDetailViewController.xib in Resources */,
 				D26E63A92488EF8B006A0093 /* LaunchScreen.storyboard in Resources */,
+				D26E63D724890632006A0093 /* PhotoCollectionViewCell.xib in Resources */,
+				D26E63D3248903F8006A0093 /* PhotoViewController.xib in Resources */,
+				D2DB67B424920BDC00EC0AE6 /* ProfileTableViewCell.xib in Resources */,
 				D26E63A62488EF8B006A0093 /* Assets.xcassets in Resources */,
 				D26E63A42488EF86006A0093 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +330,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7319249A138FF7B89D50CF44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVMDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65F582FAF1BDD484934496C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVMDemo/Pods-MVVMDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D26E63952488EF86006A0093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D26E63A12488EF86006A0093 /* ViewController.swift in Sources */,
+				D2DB67B324920BDC00EC0AE6 /* ProfileTableViewCell.swift in Sources */,
+				D26E63D624890632006A0093 /* PhotoCollectionViewCell.swift in Sources */,
+				D26E63D2248903F8006A0093 /* PhotoViewController.swift in Sources */,
+				D26E63D924890CB0006A0093 /* PhotoCellViewModel.swift in Sources */,
+				D26E63EC2491DA07006A0093 /* ProfileViewController.swift in Sources */,
 				D26E639D2488EF86006A0093 /* AppDelegate.swift in Sources */,
+				D26E63E424908781006A0093 /* PhotoDetailViewController.swift in Sources */,
+				D26E63E92490D3C3006A0093 /* DataPassing.swift in Sources */,
+				D26E63DB2489E6B1006A0093 /* PhotoControllerViewModel.swift in Sources */,
+				D26E63DD2489E720006A0093 /* PhotoModel.swift in Sources */,
+				D26E63DF2489F1CC006A0093 /* APIService.swift in Sources */,
 				D26E639F2488EF86006A0093 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +560,7 @@
 		};
 		D26E63C42488EF8C006A0093 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DF5CA0E1330C6A4683FFDA /* Pods-MVVMDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -444,12 +573,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cheng.MVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D26E63C52488EF8C006A0093 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95759960FF9F5CC8E9F96884 /* Pods-MVVMDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,7 +592,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cheng.MVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
